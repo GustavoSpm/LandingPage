@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background-color: #b4dff7;
+  font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+  border-bottom: 1px solid #2e2b2b;
+}
+
+.cabecalho_menu {
+  display: flex;
+  gap: 50px;
+}
+
+.corpo {
+  margin-bottom: 48px;
+  margin-top: 48px;
+}
+
+.corpo_conteudo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.descricao_avatar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.corpo_conteudo_texto {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.titulo_corpo {
+  font-size: 34px;
+}
+
+.itens_corpo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.cabecalho_item:hover,
+.cabecalho_item:focus {
+  box-shadow: 0 0.8em 0.8em -0.7em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+.rodape {
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+  border-top: 1px solid #2e2b2b;
+  background-color: #ffffff;
+  padding: 24px;
+}
+
+.idiomas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 24px;
+  align-items: center;
+  margin-top: 48px;
+}
+
+.idioma_titulo {
+  margin-bottom: 20px;
+}
+
+.idioma_itens {
+  gap: 15px;
+}
+
+.idioma_ingles {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+.idioma_espanhol {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
